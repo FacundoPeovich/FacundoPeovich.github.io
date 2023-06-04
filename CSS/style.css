@@ -1,0 +1,191 @@
+.carousel-item img {
+  max-height: 400px;
+  /* Ajusta la altura máxima según tus necesidades */
+  max-width: 400px;
+  height: auto;
+}
+
+#miCarousel {
+  width: 60%;
+  /* Reduce el ancho al 80% del contenedor padre */
+  margin: 0 auto;
+  /* Centra horizontalmente el Carousel */
+  background-color: rgb(255, 255, 255);
+}
+
+#miCarousel .carousel-item img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bg-orange {
+  background-color: rgba(219, 92, 8, 0.966) !important;
+}
+
+.cuerpo {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.cuerpo {
+  background-color: #747272;
+}
+
+#miCarousel {
+  border: 6px solid #414141;
+  /* Color de borde gris y grosor de 4px */
+  border-radius: 10px;
+  /* Redondez de las puntas */
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+
+.video-container {
+  text-align: center;
+  /* Centra el contenido horizontalmente */
+  margin-top: 50px;
+  /* Margen superior de 20px */
+}
+
+.video-container iframe {
+  margin: 0 auto;
+  /* Centra el iframe dentro del contenedor */
+  margin-bottom: 50px;
+  display: block;
+  /* Asegura que el iframe ocupe todo el ancho disponible */
+}
+
+.container {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container {
+  width: 100%;
+}
+
+.image-container .banner {
+  position: relative;
+}
+
+.image-container .banner img {
+  width: 100%;
+  height: auto;
+}
+
+
+footer {
+  background-color: rgba(219, 92, 8, 0.966);
+  color: #b9b6b6;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+}
+
+
+.footer {
+    margin-top: auto; /* Ajusta el valor según sea necesario */
+  }
+  
+
+.carousel-caption {
+  margin-top: 500px;
+  /* Espacio entre imagen y texto */
+  color: #747272;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgb(255, 102, 0);
+  /* Otros estilos personalizados */
+}
+
+.content-box {
+  margin-right: auto;
+  margin-top: 100px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.btn-naranja {
+  background-color: rgba(219, 92, 8, 0.966);
+  border-color: rgba(219, 92, 8, 0.966);
+}
+
+/* Estilos para registración */
+
+.register-photo {
+  background: #747272;
+  padding: 80px 0;
+}
+
+.register-photo .image-holder img {
+  width: 100%;
+  height: auto;
+}
+
+.register-photo form {
+  background-color: #ffffff;
+  padding: 40px 60px;
+  color: #505e6c;
+}
+
+.register-photo form h2 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.register-photo form .form-control {
+  background: #f7f9fc;
+  border: none;
+  border-bottom: 1px solid #dfe7f1;
+  border-radius: 0;
+  box-shadow: none;
+  outline: none;
+  color: inherit;
+  text-indent: 6px;
+  height: 40px;
+}
+
+.register-photo form .form-check {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.register-photo form .btn-primary {
+  background: rgba(219, 92, 8, 0.966);
+  border: none;
+  border-radius: 4px;
+  padding: 11px;
+  box-shadow: none;
+  margin-top: 35px;
+  text-shadow: none;
+  outline: none !important;
+}
+
+.register-photo form .btn-primary:hover,
+.register-photo form .btn-primary:active {
+  background: #eb643b;
+}
+
+.register-photo form .btn-primary:active {
+  transform: translateY(1px);
+}
+
+.register-photo form .already {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  color: #005ab4;
+  opacity: 0.9;
+  text-decoration: none;
+  padding-top: 20px;
+}
+
+
+
