@@ -1,0 +1,19 @@
+.card {
+    transition: transform 0.3s ease;
+  
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  .card.no-hover {
+    transition: none;
+  
+    &:hover {
+      transform: none;
+    }
+}
+
+  
+  
+  

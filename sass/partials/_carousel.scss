@@ -1,0 +1,29 @@
+// _carousel.scss
+
+#miCarousel {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 6px solid $color-border;
+    border-radius: 10px;
+    margin: 20px auto 0;
+  }
+  
+  .carousel-item img {
+    max-height: 400px;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .carousel-caption {
+    margin-top: 500px;
+    color: $color-gray;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: $color-orange;
+  }
+  
