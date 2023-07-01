@@ -1,0 +1,18 @@
+// _image-section.scss
+
+.image-section {
+    .card {
+      width: 100%; // El ancho del contenedor de la imagen ocupará el 100% del ancho disponible
+  
+      .card-img-top {
+        width: 100%; // El ancho de la imagen ocupará el 100% del contenedor
+  
+        // Ajusta la altura de las imágenes según tus necesidades
+        height: 200px; // Ejemplo: altura fija de 200 píxeles
+        
+        // Otros estilos para las imágenes, como bordes redondeados
+        border-radius: 10px;
+      }
+    }
+  }
+  
