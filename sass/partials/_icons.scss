@@ -1,7 +1,37 @@
-// En _icons.scss
+// _icons.scss
+
+.whatsapp-container {
+  position: fixed;
+  bottom: 20px;
+  right: 100px; /* Ajusta la posición del contenedor de WhatsApp según tus necesidades */
+  z-index: 9999;
+}
+
+.instagram-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+.instagram-icon,
 .whatsapp-icon {
-    font-size: 100px;
-    color: green;
-    
-  }
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.instagram-icon {
+  background-color: #e4405f;
+}
+
+.whatsapp-icon {
+  background-color: green;
+  padding-left: 4px;
+}

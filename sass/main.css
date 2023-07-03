@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 body {
   min-height: 100vh;
   display: flex;
@@ -47,8 +46,7 @@ footer {
   border-radius: 10px;
   padding: 20px;
   width: 100%;
-  height: 250px;
-  /* Cambia este valor según tus necesidades */
+  height: 250px; /* Cambia este valor según tus necesidades */
 }
 
 .footer {
@@ -58,11 +56,9 @@ footer {
 .image-container {
   width: 100%;
 }
-
 .image-container .banner {
   position: relative;
 }
-
 .image-container .banner img {
   width: 100%;
   height: auto;
@@ -77,24 +73,20 @@ footer {
   background: #747272;
   padding: 80px 0;
 }
-
 .register-photo .image-holder img {
   width: 100%;
   height: auto;
 }
-
 .register-photo form {
   background-color: #fff;
   padding: 40px 60px;
   color: #505e6c;
 }
-
 .register-photo form h2 {
   font-size: 24px;
   line-height: 1.5;
   margin-bottom: 30px;
 }
-
 .register-photo form .form-control {
   background: #f7f9fc;
   border: none;
@@ -106,12 +98,10 @@ footer {
   text-indent: 6px;
   height: 40px;
 }
-
 .register-photo form .form-check {
   font-size: 13px;
   line-height: 20px;
 }
-
 .register-photo form .btn-primary {
   background: rgba(219, 92, 8, 0.966);
   border: none;
@@ -122,16 +112,12 @@ footer {
   text-shadow: none;
   outline: none !important;
 }
-
-.register-photo form .btn-primary:hover,
-.register-photo form .btn-primary:active {
+.register-photo form .btn-primary:hover, .register-photo form .btn-primary:active {
   background: #eb643b;
 }
-
 .register-photo form .btn-primary:active {
   transform: translateY(1px);
 }
-
 .register-photo form .already {
   display: block;
   text-align: center;
@@ -149,7 +135,6 @@ footer {
 .card {
   transition: transform 0.3s ease;
 }
-
 .card:hover {
   transform: scale(1.05);
 }
@@ -157,21 +142,87 @@ footer {
 .card.no-hover {
   transition: none;
 }
-
 .card.no-hover:hover {
   transform: none;
 }
 
-/*# sourceMappingURL=main.css.map */
-
-.image-section {
-  position: relative;
+.image-section .card {
+  width: 100%;
+}
+.image-section .card .card-img-top {
+  width: 100%;
+  height: 500px; /* Ajusta la altura de las imágenes, por ejemplo, a 300px */
+  -o-object-fit: cover;
+     object-fit: cover; /* Ajusta la forma en que la imagen se ajusta dentro del contenedor */
+  border-radius: 5px;
 }
 
-.image-section .card:nth-child(1) {
-  animation: slideFromLeft 4s ease-in-out forwards;
+.content-box h2 {
+  /* Estilos para el título dentro del content-box */
+  font-size: 30px; /* Tamaño de fuente deseado */
+  font-family: "Arial", sans-serif; /* Fuente específica deseada */
 }
 
-.image-section .card:nth-child(2) {
-  animation: slideFromRight 4s ease-in-out forwards;
+@keyframes slideFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
+@keyframes slideFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.slide-from-left {
+  animation: slideFromLeft 1s ease-in-out forwards;
+}
+
+.slide-from-right {
+  animation: slideFromRight 1s ease-in-out forwards;
+}
+
+.whatsapp-container {
+  position: fixed;
+  bottom: 20px;
+  right: 100px; /* Ajusta la posición del contenedor de WhatsApp según tus necesidades */
+  z-index: 9999;
+}
+
+.instagram-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+.instagram-icon,
+.whatsapp-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.instagram-icon {
+  background-color: #e4405f;
+}
+
+.whatsapp-icon {
+  background-color: green;
+  padding-left: 4px;
+}/*# sourceMappingURL=main.css.map */
